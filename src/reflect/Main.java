@@ -4,6 +4,7 @@ import JuneToAugust.PriorityQueueTest;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 
 public class Main {
     public static void main(String[] args) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
@@ -13,11 +14,15 @@ public class Main {
         Class str=String.class;
         int i=1;
         Constructor[] constructor = c.getConstructors();
+        Method[] methods = c.getMethods();
 
         for(Constructor constructor1 : constructor)
         {
 
             System.out.println(constructor1);
+        }
+        for (Method method:methods){
+            System.out.println(method);
         }
 
         System.out.println(StrTiInt("+145623"));
@@ -28,6 +33,8 @@ public class Main {
             Double aDouble = priorityQueueTest.GetMedian();
             System.out.println(aDouble);
         }
+
+
 
 
 

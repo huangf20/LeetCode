@@ -6,7 +6,7 @@ public class Student {
 
     public Student() {
     }
-
+    public static void test(){}
     public Student(String name) {
         this.name = name;
     }

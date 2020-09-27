@@ -1,12 +1,10 @@
 package leetCode;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class Test {
     public static void main(String args[]){
-        LeetCode51 leetCode51=new LeetCode51();
+        /*LeetCode51 leetCode51=new LeetCode51();
         int n=4;
         List<List<String>> lists = leetCode51.solveNQueens(n);
         for(List<String> list :lists){
@@ -18,7 +16,7 @@ public class Test {
             }
             System.out.println();
         }
-        System.out.println(lists.size());
+        System.out.println(lists.size());*/
 
         /*LeetCode1143 leetCode1143=new LeetCode1143();
         System.out.println(leetCode1143.longestCommonSubsequence("abcde","ace"));*/
@@ -72,6 +70,69 @@ public class Test {
         int []test=new int[]{1,5,2};
         System.out.println(leetCode486.PredictTheWinner(test));*/
 
+        /*LeetCode978 leetCode978 = new LeetCode978();
+        int []test=new int []{0,1,1,0,1,0,1,1,0,0};
+        System.out.println(leetCode978.maxTurbulenceSize(test,1));*/
+
+        /*LeetCode257.TreeNode treeNode1=new LeetCode257.TreeNode(1);
+        LeetCode257.TreeNode treeNode2=new LeetCode257.TreeNode(2);
+        LeetCode257.TreeNode treeNode3=new LeetCode257.TreeNode(3);
+        LeetCode257.TreeNode treeNode4=new LeetCode257.TreeNode(5);
+        treeNode1.left=treeNode2;
+        treeNode1.right=treeNode3;
+        treeNode2.right=treeNode4;
+        LeetCode257 leetCode257=new LeetCode257();
+        System.out.println(leetCode257.binaryTreePaths(treeNode1));
+        String s="->123456";
+        System.out.println(s.substring(2,s.length()));*/
+
+        /*LeetCode347 leetCode347=new LeetCode347();
+        int[] frequent = leetCode347.topKFrequent(new int[]{1, 1, 1, 2, 2, 3,3,3,3,4,4,4,4,4}, 3);*/
+
+        /*LeetCode77 leetCode77 = new LeetCode77();
+        List<List<Integer>> combine = leetCode77.combine(4, 2);
+        System.out.println(combine);*/
+
+        /*LeetCode39 leetCode39=new LeetCode39();
+        List<List<Integer>> lists = leetCode39.combinationSum2(new int[]{10,1,2,7,6,1,5}, 8);
+        System.out.println(lists);*/
+
+
+        /*LeetCode37 leetCode37=new LeetCode37();
+        char[][] board = {
+                {'5', '3', '.', '.', '7', '.', '.', '.', '.'},
+                {'6', '.', '.', '1', '9', '5', '.', '.', '.'},
+                {'.', '9', '8', '.', '.', '.', '.', '6', '.'},
+                {'8', '.', '.', '.', '6', '.', '.', '.', '3'},
+                {'4', '.', '.', '8', '.', '3', '.', '.', '1'},
+                {'7', '.', '.', '.', '2', '.', '.', '.', '6'},
+                {'.', '6', '.', '.', '.', '.', '2', '8', '.'},
+                {'.', '.', '.', '4', '1', '9', '.', '.', '5'},
+                {'.', '.', '.', '.', '8', '.', '.', '7', '9'}};
+        leetCode37.solveSudoku(board);
+        int[][] colPut = leetCode37.colPut;
+        int[][] rowPut = leetCode37.rowPut;
+        System.out.println(colPut);
+        System.out.println(rowPut);
+        for (char[] a:leetCode37.mBoard) {
+            for (char c :a) {
+                System.out.print(c+"  ");
+            }
+            System.out.println();
+        }*/
+
+        LeetCode42 leetCode42=new LeetCode42();
+        System.out.println(leetCode42.trap(new int[]{0,1,0,2,1,0,1,3,2,1,2,1}));
+
+        int []test=new int[]{1,2,3,4,5};
+        int[] copy = Arrays.copyOfRange(test, 0, 3);
+        System.out.println(test);
+        System.out.println(copy);
+
+
+        LeetCode106 leetCode106=new LeetCode106();
+        LeetCode106.TreeNode treeNode = leetCode106.buildTree(new int[]{9, 3, 15, 20, 7}, new int[]{9, 15, 7, 20, 3});
+        System.out.println(treeNode);
     }
 
 
