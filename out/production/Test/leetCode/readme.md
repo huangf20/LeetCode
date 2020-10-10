@@ -11,6 +11,7 @@
 ####[LeetCode117](LeetCode117.java)           **填充每个节点的下一个右侧节点指针II**   
 ####[LeetCode130](LeetCode130.java)           **被围绕的区域**      
 ####[LeetCode141](LeetCode141.java)           **环形链表**      
+####[LeetCode142](LeetCode142.java)           **环形链表II**      
 ####[LeetCode235](LeetCode235.java)           **二叉搜索树的最近公共祖先**    
 ####[LeetCode257](LeetCode257.java)           **二叉树的所有路径**    
 ####[LeetCode300](LeetCode300.java)           **最长上升子序列**   
@@ -23,3 +24,4 @@
 ####[LeetCode1143](LeetCode1143.java)          **最长公共子序列**   
 ####[LeetCode1320](LeetCode1320.java)          **二指输入的的最小距离**    
 ####[LeetCode1402](LeetCode1402.java)          **做菜顺序**    
+
