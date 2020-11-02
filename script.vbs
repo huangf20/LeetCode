@@ -1,0 +1,1 @@
+CreateObject("SAPI.SpVoice").Speak " chen ming lu you are a bad girl,very very bad! you are a bad girl,very very bad! you are a bad girl,very very bad! you are a bad girl,very very bad! you are a bad girl,very very bad!"  
