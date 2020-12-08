@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 public class WindowsSpeak {
     public static void main(String[] args) {
         WindowsSpeak speak = new WindowsSpeak();
-        speak.speak("chen ming lu  you are a bad girl,very very bad! you are a bad girl,very very bad! you are a bad girl,very very bad! you are a bad girl,very very bad! you are a bad girl,very very bad!");
+        speak.speak("fuck love,I just want to make money,I want to climb to the highest step by step,I have no qualification to let her look up to me,and you Chen Minglu ,just a bitch,fucking bitch! ");
     }
     public void speak(String words){
         Runtime run =Runtime.getRuntime();
