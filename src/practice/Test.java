@@ -10,6 +10,8 @@ public class Test {
         }
         System.out.println(stocks);
         System.out.println(maxArea(new int[]{3,4,5,6}));
+        String s="我喜欢你";
+        System.out.println(s.contains("喜欢"));
     }
 
     static int[] stocks(int[] stocks) {
