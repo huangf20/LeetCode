@@ -17,6 +17,7 @@
 ####[LeetCode143](LeetCode143.java)           **重排链表** 
 ####[LeetCode235](LeetCode235.java)           **二叉搜索树的最近公共祖先**    
 ####[LeetCode257](LeetCode257.java)           **二叉树的所有路径**    
+####[LeetCode290](LeetCode290.java)           **单词规律**    
 ####[LeetCode300](LeetCode300.java)           **最长上升子序列**   
 ####[LeetCode347](LeetCode347.java)           **前K高频元素**   
 ####[LeetCode349](LeetCode349.java)           **两个数组的交集**   
