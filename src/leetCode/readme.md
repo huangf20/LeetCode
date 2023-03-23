@@ -34,4 +34,5 @@
 ####[LeetCode1143](LeetCode1143.java)          **最长公共子序列**   
 ####[LeetCode1320](LeetCode1320.java)          **二指输入的的最小距离**    
 ####[LeetCode1402](LeetCode1402.java)          **做菜顺序**    
+####[LeetCode2488](LeetCode2488.java)          **统计中位数为 K 的子数组**    
 

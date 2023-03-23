@@ -30,21 +30,15 @@ public class ThreadDemo {
 
     public static void main(String[] args) {
         final ThreadDemo threadDemo=new ThreadDemo();
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                for (int i = 0; i < 5; i++) {
-                    threadDemo.printA();
-                }
+        new Thread(() -> {
+            for (int i = 0; i < 5; i++) {
+                threadDemo.printA();
             }
         }).start();
 
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                for (int i = 0; i < 5; i++) {
-                    threadDemo.printB();
-                }
+        new Thread(() -> {
+            for (int i = 0; i < 5; i++) {
+                threadDemo.printB();
             }
         }).start();
     }

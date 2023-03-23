@@ -1,10 +1,10 @@
 package JuneToAugust;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
+import java.util.Random;
 
 public class Test01 {
      static class Position{
@@ -31,6 +31,12 @@ public class Test01 {
             for (char arr :ar) {
                 System.out.println(arr);
             }
+        }
+
+
+        Random random = new Random();
+        for (int i = 0; i < 1000; i++) {
+            System.out.println(random.nextInt(2));
         }
     }
 }
